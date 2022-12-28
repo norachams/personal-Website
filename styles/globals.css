@@ -45,10 +45,7 @@
   font-size: x-large;
   margin: auto;
   line-height: 0.8cm;
-  color: #606c38;
-  
-
-  
+  color: #606c38;  
 }
 
 .banner-name {
@@ -159,6 +156,8 @@
 }
 
 
+
+
 /*SKILLS*/
 
 .skills-section  {
@@ -234,17 +233,6 @@ padding: 30px;
 background-color: transparent;
 }
 
-@media (max-width: 768px) {
-  .skill-box {
-    width: 25%;
-  }
-}
-
-@media (max-width: 576px) {
-  .skill-box {
-    width: 33.33%;
-  }
-}
 
 
 /*WORK*/
@@ -261,7 +249,6 @@ color:#fefae0;
   text-decoration-color: #9c5b1f;
   background-color: transparent;
   margin: auto;
-  
   font-size: xx-large;
   padding: 10px;
 }
@@ -283,8 +270,6 @@ color:#fefae0;
   margin-left: 170px;
   padding: 30px;
   transition: background-color 0.2s;
-  
-  
 }
 
 .tab-titles button {
@@ -322,7 +307,6 @@ color:#fefae0;
   text-decoration: underline;
   text-decoration-color: #9c5b1f;
   text-decoration-thickness: 3px;
-  
   transition: background-color 0.2s;
   font-weight: bolder;
 }
@@ -491,10 +475,6 @@ color:#fefae0;
         }
       }
     
- 
-      
-      
-
   .linkgit{
     float: right;
     color: #283618;
@@ -570,9 +550,6 @@ color:#fefae0;
     width: 10%;
     text-align: center; /* centers the button within its parent element */
     left: 25px;
-    
-    
-    
   }
   
   
@@ -869,6 +846,7 @@ color:#fefae0;
   left: -8px;
   background-color: #000;
 }
+
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 /*SMALLER WINDOWN*/
@@ -896,6 +874,70 @@ color:#fefae0;
   }
 }
 
+/*ABOUT ME*/
+
+.about-me-text-and-image {
+  display: flex;
+  flex-direction: row; /* default value for larger screens */
+}
+  /* Add media queries to adjust layout at different window sizes */
+  @media (max-width: 1100px) {
+    .about-me-text-and-image {
+    flex-direction: column; /* change to column for smaller screens */
+    align-items: center;
+  }
+}
+
+
+@media (max-width: 908px) {
+   
+  .about-me-text { 
+    top: 80%;
+    margin-left: 30px;
+    text-align: center;
+    
+  }
+}
+
+
+/*COFFEE GIF*/
+
+@media only screen and (max-width: 1100px) {
+  /* Add your styles here */
+  .container {
+    /* Make the width and height of the container smaller */
+    /* Change the position of the container to be below the banner text */
+    position: relative;
+    top: auto;
+    left: auto;
+    margin-top: 20px;
+   
+  }
+}
+
+/*SOCIALS*/
+@media (max-width: 868px) {
+  .social-icons::after {
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 2px;
+    background-color: #283618;
+    margin-left: 10px;
+  }
+    .social-icon a {
+      display: block;
+      height: 25px;
+      background-size: cover;
+      background-color: transparent;
+    }
+
+    .social-icons { 
+      top: 80%;
+      margin-left: 30px;
+      
+    }
+}
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
@@ -926,55 +968,58 @@ color:#fefae0;
   }
 }
 
-/*COFFEE GIF*/
 
-@media only screen and (max-width: 1100px) {
-  /* Add your styles here */
-  .container {
-    /* Make the width and height of the container smaller */
-    /* Change the position of the container to be below the banner text */
-    position: relative;
-    top: auto;
-    left: auto;
-    margin-top: 20px;
-   
+/*SKILLS*/
+
+
+@media (max-width: 950px) {
+  .skills-container {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+  .skill-box {
+    width: 150px;
+    height: 150px;
+    font-size: 12px;
   }
 }
 
+@media (max-width: 700px) {
+  .skills-container {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+  .skill-box {
+    width: 150px;
+    height: 150px;
+    font-size: 12px;
+  }
+}
 
-
-/*SOCIALS*/
-@media (max-width: 768px) {
-  .social-icons::after {
-    content: "";
-    position: absolute;
+@media (max-width: 320px) {
+  .skills-container {
+    grid-template-columns: repeat(1, 1fr); 
+  }
+  .skill-box {
+    width: 100px;
     height: 100px;
-    width: 2px;
-    background-color: #283618;
-    margin-left: 10px;
+    font-size: 12px;
   }
-    .social-icon a {
-      display: block;
-      height: 25px;
-      background-size: cover;
-      background-color: transparent;
-      
-      
-      
-    }
-
-    .social-icons { 
-      top: 80%;
-      
-      margin-left: 30px;
-      
-    }
-    
-  
 }
 
 
+@media (max-width: 768px) {
+  .tab-system {
+    flex-direction: column;
+  }
+}
 
-
+@media (max-width: 768px) {
+    .tab-titles { 
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+   
+    }
+}
 
 
