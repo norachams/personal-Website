@@ -1027,7 +1027,6 @@ color:#fefae0;
       padding: 0;
       display: flex;
       flex-direction: row;
-      
    
     }
 
@@ -1050,14 +1049,15 @@ color:#fefae0;
   
 
 }
+.tab-titles{
+  margin-left: -35px;
+}
 }
 
 
 @media (max-width: 480px) {
-
-
     .tab-description{
-      margin-top: 60px;
+      margin-top: 40px;
       
     }
 }
