@@ -492,7 +492,7 @@ color:#fefae0;
   @media (max-width: 480px) {
     .portfolio-cont {
       
-      width: 250px;
+      width: 350px;
       
 
     }
@@ -1050,10 +1050,8 @@ color:#fefae0;
 @media (max-width: 900px) {
  
   .contact-button {
-   
-
     width: 30%;
-   
+
   }
 }
 
