@@ -1027,6 +1027,7 @@ color:#fefae0;
       padding: 0;
       display: flex;
       flex-direction: row;
+      
    
     }
 
@@ -1035,6 +1036,20 @@ color:#fefae0;
       margin-left: 0;
       padding: 30px;
     }
+   
+
+   
+}
+
+@media (max-width: 480px) {
+.tab-titles button {     
+    font-size: 12px;
+    text-align: center;
+    flex-direction: column;
+  
+  
+
+}
 }
 
 
