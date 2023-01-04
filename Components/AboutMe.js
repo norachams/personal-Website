@@ -12,11 +12,6 @@ export default function Home() {
           I have a strong passion for problem-solving and enjoy challenging myself by taking on difficult projects that I am able to learn from.
           <br></br>
           <br></br>
-          This past summer, I had the privilege to intern at an agency called Klick Health as a web developer, and in the fall I joined MLH as a fellow. 
-          Throughout the years, I have participated in numerous hackathons and school clubs as a software developer, building web apps that solve real problems.
-          Recently, I have become very interested in the world of machine learning and AI, and I plan on focusing on and exploring this interest by building projects and doing research.
-          <br></br>
-          <br></br>
           In addition to my studies and professional experience, I am also an avid rock climber and a cat person - I have two cats, Caramella and Woody.
       </div>
       <div className="image-background">
