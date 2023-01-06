@@ -12,8 +12,8 @@ export default function Home() {
         <br />
         <h1 className="banner-desc">I build things with code.</h1>
         <h5 className="banner-cof">Enjoy some coffee while you scroll!</h5>
-        <a className="banner-button" href="https://drive.google.com/file/d/1IHsKmAt_VsAb1lVH4D_VF2c0q_RBmss5/view?usp=sharing"
-        >Resume</a>
+        <a className="banner-button" href="/resume.pdf" target="_blank"
+        >Résumé</a>
       </div>
       <div className="container">
     <div className="coffee-header">
