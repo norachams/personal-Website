@@ -12,10 +12,10 @@ export default function Home() {
   
   const tabs = [
     {
-      title: 'MLH',
+      title: 'MLH Prep',
       description: <div className="description">
       <p className="title">SWE Prep Fellow @ Major League Hacking</p>
-      <p className="date">Nov 2022 - Nov 2022 </p>
+      <p className="date">Nov 2022 </p>
       <p className="space">.</p>
       <p className="desc"> • Built and designed a portfolio website for our MLH pod team and a React app that graphically displays the weather of a selected city and suggests activities based on the weather by using APIs and collaborating and arranging pair programming sessions with teammates.</p>
       <p className="desc"> • Reviewed and tested over 30 pull requests and provided assistance to teammates by organizing group meetings and attending daily stand-ups.</p>
