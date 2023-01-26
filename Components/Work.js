@@ -8,18 +8,32 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState(0);
 
   // List of tab objects
+ 
 
-  
   const tabs = [
     {
-      title: 'MLH Prep',
+      title: 'MLH SRE',
       description: <div className="description">
-      <p className="title">SWE Prep Fellow @ Major League Hacking</p>
+      <p className="title">Site Reliability Engineering Fellow @ Major League Hacking</p>
+      <p className="date">Jan 2023 - Present </p>
+      <p className="space">.</p>
+      <p className="desc"> • Completing a structured curriculum-based learning covering core Site Reliability Engineering topics.</p>
+      <p className="desc"> • Gaining and using practical skills from Linux Foundation Training and Certifications LFS201.</p>
+      <p className="desc"> • Utilizing skills gained from LFS201 to efficiently administer, configure and upgrade Linux systems.</p>
+      <p className="desc"> • Selected 1 of 25 out of 4,000 applicants for a 12-week program with an acceptance rate of 2.5%</p>
+
+      </div> 
+    },
+    {
+      title: 'MLH SWE',
+      description: <div className="description">
+      <p className="title">Software Engineering Prep Fellow @ Major League Hacking</p>
       <p className="date">Nov 2022 </p>
       <p className="space">.</p>
-      <p className="desc"> • Built and designed a portfolio website for our MLH pod team and a React app that graphically displays the weather of a selected city and suggests activities based on the weather by using APIs and collaborating and arranging pair programming sessions with teammates.</p>
-      <p className="desc"> • Reviewed and tested over 30 pull requests and provided assistance to teammates by organizing group meetings and attending daily stand-ups.</p>
-      <p className="desc"> • Selected as a fellow from over 700 applicants worldwide for a 3-week program to experiment with new technologies by collaborating in small groups and building projects.</p>
+      <p className="desc"> • Designed, developed and tested a portfolio website and React web app for our MLH pod team</p>
+      <p className="desc"> • Selected from over 700 applicants to experiment with new technologies by collaborating in groups.</p>
+      <p className="desc"> • Utilized React.js and APIs to graphically display the weather of a selected city and suggest activities.</p>
+      <p className="desc"> • Reviewed and tested over 30 pull requests and provided assistance by organizing group meetings.</p>
       </div> 
     },
     {
