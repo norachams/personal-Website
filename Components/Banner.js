@@ -13,7 +13,7 @@ export default function Home() {
         <h1 className="banner-desc">I build things with code.</h1>
         <h5 className="banner-cof">Enjoy some coffee while you scroll!</h5>
         <a className="banner-button" href="/resume.pdf" target="_blank"
-        >Resumé</a>
+        >Résumé</a>
       </div>
       <div className="container">
     <div className="coffee-header">
