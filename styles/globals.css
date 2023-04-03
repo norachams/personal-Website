@@ -287,19 +287,6 @@ color:#fefae0;
 
  
 }
-/*
-.line{
-  content: "";
-  height: 345px;
-  position: relative;
-  width: 2px;
-  background-color: #283618;
-  left: -982px;
-  top: 35px;
-}
-*/
-
-
 
 .tab-titles button.active {
   background-color: transparent;
