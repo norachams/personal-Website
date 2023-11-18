@@ -8,7 +8,7 @@ export default function Home() {
     <h2 className="about-me-title ">About</h2>
     <div className="about-me-text-and-image flex bg-transparent">
       <div className="about-me-text">
-          Hello! My name is Nora a second-year dual degree university student studying computer science and business administration. 
+          Hello! My name is Nora a third-year dual degree university student studying computer science and business administration. 
           I have a strong passion for problem-solving and enjoy challenging myself by taking on difficult projects that I am able to learn from.
           <br></br>
           <br></br>

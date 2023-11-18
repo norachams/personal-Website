@@ -12,23 +12,35 @@ export default function Home() {
 
   const tabs = [
     {
+      title: 'AutoTrader',
+      description: <div className="description">
+      <p className="title">Data Automation Developer Intern @ AutoTrader</p>
+      <p className="date">May 2023 - August 2023 </p>
+      <p className="space">.</p>
+      <p className="desc"> • Developed over ten Python scripts, utilizing Pandas, Openpyxl, and NumPy, resulting in a 30% reduction in manual data handling time.</p>
+      <p className="desc"> • Ensured and maintained data accuracy by implementing data validation procedures, including data cleansing, deduplication, and validation checks, resulting in a 20% reduction in errors.</p>
+      <p className="desc"> • Established data pipelines through web scraping techniques, facilitating the extraction and processing of Big Data, contributing to analytical insights for 20+ automakers and 150+ dealerships.</p>
+      <p className="desc"> • Spearheaded the adoption of Git, Azure, Jira, and Confluence to streamline project management, enhance documentation practices, and foster team collaboration, leading to a 25% increase in project efficiency and on-time delivery.</p>
+
+      </div> 
+    },
+    {
       title: 'MLH SRE',
       description: <div className="description">
       <p className="title">Site Reliability Engineering Fellow @ Major League Hacking</p>
-      <p className="date">Jan 2023 - Present </p>
+      <p className="date">Jan 2023 - May 2023 </p>
       <p className="space">.</p>
-      <p className="desc"> • Completing a structured curriculum-based learning covering core Site Reliability Engineering topics.</p>
-      <p className="desc"> • Gaining and using practical skills from Linux Foundation Training and Certifications LFS201.</p>
-      <p className="desc"> • Utilizing skills gained from LFS201 to efficiently administer, configure and upgrade Linux systems.</p>
-      <p className="desc"> • Selected 1 of 25 out of 4,000 applicants for a 12-week program with an acceptance rate of 2.5%</p>
-
+      <p className="desc"> • Designed and built a scalable Flask web app that seamlessly integrates with MySQL database services, ensuring robust data management and enhancing overall system reliability.</p>
+      <p className="desc"> • Efficiently deployed and managed Unix/Linux servers using DigitalOcean droplets, while implementing automated testing and streamlining deployment with CI/CD tools, resulting in a 25% boost in operational efficiency.</p>
+      <p className="desc"> • Leveraged Docker containers and NGINX to deploy applications to testing environments, while also automating SSL certificate generation, ensuring a secure and reliable testing environment.</p>
+      <p className="desc"> • Selected out of 4,000 applicants for a highly competitive 12-week curriculum-based learning program, with an acceptance rate of only 2.5%.</p> 
       </div> 
     },
     {
       title: 'MLH SWE',
       description: <div className="description">
       <p className="title">Software Engineering Prep Fellow @ Major League Hacking</p>
-      <p className="date">Nov 2022 </p>
+      <p className="date">Nov 2022 - Nov 2022 </p>
       <p className="space">.</p>
       <p className="desc"> • Designed, developed and tested a portfolio website and React web app for our MLH pod team</p>
       <p className="desc"> • Selected from over 700 applicants to experiment with new technologies by collaborating in groups.</p>
@@ -42,12 +54,12 @@ export default function Home() {
       <p className="title">Web developer Intern @ Klick Health</p>
       <p className="date">May 2022 - August 2022</p>
       <p className="space">.</p>
-      <p className="desc">• Developed, designed, and authored websites by collaborating with senior web developers to meet client needs using Adobe Experience Manager, HTML, CSS and JS.</p>
-      <p className="desc">• Assisted QA team with resolving tasks on Jira by ensuring quality and accessibility of websites before launch and improving overall user experience.</p>
-      <p className="desc">• Created and presented a campaign, branding strategy and a website refresh for a nonprofit organization, Eat REAL, to help raise $16M by 2025.</p>
+      <p className="desc">• Revamped client websites by utilizing HTML, CSS, and integrated Vue.js to optimize UX, resulting in a 30% increase in user engagement.</p>
+      <p className="desc">• Collaborated with the QA team to resolve issues on Jira by identifying and fixing bugs, while also enhancing website accessibility, resulting in a 15% increase in overall website quality.</p>
+      <p className="desc">• Worked with developers using Adobe Experience Manager to manage client assets, optimize workflows, and improve delivery processes.</p>
+      <p className="desc">• Created and presented a comprehensive branding strategy and website refresh with a diverse team of student interns across various departments for a nonprofit organization, Eat REAL, with the goal of raising $16 million in donations by 2025.</p>
       </div> 
     },
-
     
     {
       title: 'Laurier Computing Society',
@@ -55,32 +67,10 @@ export default function Home() {
       <p className="title">Software Developer @ Laurier Computing Society</p>
       <p className="date">Jan 2022 - May 2022</p>
       <p className="space">.</p>
-      <p className="desc">• Launched, designed, and implemented, a Django web app that uses the SRS algorithm to help users memorize more efectively by collaborating with an agile led team of 4 student developers over 4 months.</p>
-      <p className="desc">• Computed the back-end system by ensuring accurate Elo calculation for the SRS algorithm using Python increasing web app efectiveness by 5%.</p>
+      <p className="desc">• Launched and developed a Django app, "Mnimi, " incorporating memorization techniques and creating a responsive UI/UX using Figma and CSS.</p>
+      <p className="desc">• Implemented SRS algorithm, resulting in a 20% improvement in recall memory, and utilized SQLite for data storage with deployment on Heroku.</p>
+      <p className="desc">• Engineered the back-end system to maximize app performance, ensuring accurate Elo calculation, which increased overall algorithm effectiveness.</p>
       </div> 
-    },
-   
-
-    {
-        title: 'Enactus Laurier',
-        description: <div className="description">
-        <p className="title">Web Designer @ Enactus Laurier</p>
-        <p className="date">March 2022 – August 2022</p>
-        <p className="space">.</p>
-        <p className="desc">• Worked with a team to design a website for a nonprofit organization, with the goal of raising awareness about the project and driving donations.</p>
-        <p className="desc">• Utilized design skills and knowledge of user experience (UX) principles to create a visually appealing and user-friendly website.</p>
-        </div> 
-    },
-    {
-        title: 'Graphic Designer',
-        description: <div className="description">
-        <p className="title">Graphic Designer Freelancer @ UpWork</p>
-        <p className="date">Dec 2020 – March 2021</p>
-        <p className="space">.</p>
-        <p className="desc">• Worked closely with clients to understand their design and business vision.</p>
-        <p className="desc">• Utilized Adobe Photoshop to create a 230 page planner, exporting press-ready PDF files for high quality final product.</p>
-        <p className="desc">• Demonstrated strong design skills and attention to detail in creating visually appealing and functional products for clients.</p>
-        </div> 
     }
 
   ];

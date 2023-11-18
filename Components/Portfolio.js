@@ -18,10 +18,10 @@ const portfolio =[
   
   },
   {
-     title: 'HangMan',
-     imgUrl: '/hangman.png',
-     stack: ['Python'],
-     link: 'https://github.com/norachams/hangman-game',
+     title: 'StockSage',
+     imgUrl: '/stocksage.png',
+     stack: ['Python', 'Jupyter Notebook'],
+     link: 'https://github.com/norachams/StockSage',
   },
   {
       title: 'OpCharge',
