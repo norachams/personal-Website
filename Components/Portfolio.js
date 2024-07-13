@@ -4,18 +4,23 @@ import PortfolioItem from './PortfolioItem';
 
 const portfolio =[
   {
-     title: 'Mnimi',
-     imgUrl: '/django.png',
-     stack: ['Django', 'CSS', 'JavaScript'],
-     link: 'https://github.com/norachams/Mnimi',
-
+    title: 'JobJourney',
+    imgUrl: '/journey.png',
+    stack: ['Flask', 'React','TypeScript','Firebase','RESTful API', 'NLP'],
+    link: 'https://github.com/norachams/JobJourney',
   },
   {
-      title: 'NFTgram',
-      imgUrl: '/nftgram.png',
-      stack: ['JavaScript', 'Solidity', 'Tailwind'],
-      link: 'https://github.com/norachams/NFTgram',
-  
+    title: 'HawkHacks Portal',
+    imgUrl: '/dashboard.png',
+    stack: ['TypeScript', 'React', 'Firebase'],
+    link: 'https://github.com/LaurierHawkHacks/Dashboard',
+  },
+    {
+      title: 'Mnimi',
+      imgUrl: '/django.png',
+      stack: ['Django', 'CSS', 'JavaScript'],
+      link: 'https://github.com/norachams/Mnimi',
+
   },
   {
      title: 'StockSage',
@@ -34,13 +39,7 @@ const portfolio =[
       imgUrl: '/project-mlh.png',
       stack: ['React', 'CSS' ,'HTML'],
       link: 'https://github.com/norachams/prep-project-22.NOV.PREP.2',
-   },
-   {
-      title: 'MLH Portfolio',
-      imgUrl: '/portfolio-mlh.png',
-      stack: ['JavaScript', 'SCSS' ,'HTML'],
-      link: 'https://github.com/norachams/prep-portfolio-22.NOV.PREP.2',
-   },
+   }
 ]
 
 
