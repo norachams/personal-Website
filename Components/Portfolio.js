@@ -4,6 +4,12 @@ import PortfolioItem from './PortfolioItem';
 
 const portfolio =[
   {
+    title: 'DormDirect',
+    imgUrl: '/dormdirect.png',
+    stack: ['React','TypeScript','Firebase', 'Flask', 'Web Scraping'],
+    link: 'https://github.com/norachams/DormDirect',
+  },
+  {
     title: 'JobJourney',
     imgUrl: '/journey.png',
     stack: ['Flask', 'React','TypeScript','Firebase','RESTful API', 'NLP'],
@@ -12,21 +18,15 @@ const portfolio =[
   {
     title: 'HawkHacks Portal',
     imgUrl: '/dashboard.png',
-    stack: ['TypeScript', 'React', 'Firebase'],
+    stack: ['TypeScript', 'React', 'Firebase', 'RESTful API'],
     link: 'https://github.com/LaurierHawkHacks/Dashboard',
   },
     {
       title: 'Mnimi',
       imgUrl: '/django.png',
-      stack: ['Django', 'CSS', 'JavaScript'],
+      stack: ['Django', 'CSS', 'JavaScript', 'Python'],
       link: 'https://github.com/norachams/Mnimi',
 
-  },
-  {
-     title: 'StockSage',
-     imgUrl: '/stocksage.png',
-     stack: ['Python', 'Jupyter Notebook'],
-     link: 'https://github.com/norachams/StockSage',
   },
   {
       title: 'OpCharge',
