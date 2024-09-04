@@ -7,38 +7,39 @@ const portfolio =[
     title: 'DormDirect',
     imgUrl: '/dormdirect.png',
     stack: ['React','TypeScript','Firebase', 'Flask', 'Web Scraping'],
-    link: 'https://github.com/norachams/DormDirect',
+    linkgit: 'https://github.com/norachams/DormDirect',
   },
   {
     title: 'JobJourney',
     imgUrl: '/journey.png',
     stack: ['Flask', 'React','TypeScript','Firebase','RESTful API', 'NLP'],
-    link: 'https://github.com/norachams/JobJourney',
+    linkgit: 'https://github.com/norachams/JobJourney',
   },
   {
     title: 'HawkHacks Portal',
     imgUrl: '/dashboard.png',
     stack: ['TypeScript', 'React', 'Firebase', 'RESTful API'],
-    link: 'https://github.com/LaurierHawkHacks/Dashboard',
+    linkgit: 'https://github.com/LaurierHawkHacks/Dashboard',
   },
+   {
+      title: 'TextBox',
+      imgUrl: '/textbox.png',
+      stack: ['React', 'JavaScript' ,'CSS'],
+      linkgit: 'https://github.com/norachams/Textbox',
+      link: 'https://textboxstim.netlify.app/'
+   },
     {
       title: 'Mnimi',
       imgUrl: '/django.png',
       stack: ['Django', 'CSS', 'JavaScript', 'Python'],
-      link: 'https://github.com/norachams/Mnimi',
+      linkgit: 'https://github.com/norachams/Mnimi',
 
   },
   {
       title: 'OpCharge',
       imgUrl: '/oppcharge.png',
       stack: ['Python', 'HTML', 'CSS'],
-      link: 'https://github.com/norachams/OpCharge',
-   },
-   {
-      title: 'The Weather Center',
-      imgUrl: '/project-mlh.png',
-      stack: ['React', 'CSS' ,'HTML'],
-      link: 'https://github.com/norachams/prep-project-22.NOV.PREP.2',
+      linkgit: 'https://github.com/norachams/OpCharge',
    }
 ]
 
@@ -55,6 +56,7 @@ function Portfolio() {
                    title={project.title}
                    stack={project.stack}
                    link={project.link}
+                   linkgit={project.linkgit}
                 />
              ))}
           </div>

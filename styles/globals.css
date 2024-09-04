@@ -439,12 +439,24 @@ color:#fefae0;
   
   }
 
+  .link{
+    margin-right: 10px ;
+    float: right;
+    color: #283618;
+  
+  }
+
   .linkgit:hover{
     float: right;
     color: #9c5b1f;
   
   }
   
+  .link:hover{
+    float: right;
+    color: #9c5b1f;
+  
+  }
     .portfolio-cont {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
