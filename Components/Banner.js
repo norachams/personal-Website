@@ -8,7 +8,7 @@ export default function Home() {
         <br />
         <h1 className="banner-desc">I build things with code.</h1>
         <h5 className="banner-cof">Enjoy some coffee while you scroll!</h5>
-        <a className="banner-button" href="/Resume.pdf" target="_blank"
+        <a className="banner-button" href="/Nora_Chamseddin_Resume.pdf" target="_blank"
         >Résumé</a>
       </div>
       <div className="container">
