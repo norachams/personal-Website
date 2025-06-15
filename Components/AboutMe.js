@@ -15,7 +15,7 @@ export default function Home() {
           In addition to my studies and professional experience, I am also an avid rock climber and a cat person - I have two cats, Caramella and Woody.
       </div>
       <div className="image-background">
-        <img className="about-me-image" src="/me.png" alt="About Me Image" />
+        <img className="about-me-image" src="/me.jpg" alt="About Me Image" />
       </div>
     </div>
   </div>
