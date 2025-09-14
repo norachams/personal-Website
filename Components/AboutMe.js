@@ -1,52 +1,53 @@
 export default function Home() {
     return (
-
-
-
+<section id="about" className="section about-me"> 
   <div className="about-me">
   <div className="about-me-content flex flex-col justify-between bg-transparent m-auto">
     <h2 className="about-me-title ">About</h2>
     <div className="about-me-text-and-image flex bg-transparent">
       <div className="about-me-text">
-          Hello! My name is Nora a third-year dual degree university student studying computer science and business administration. 
-          I have a strong passion for problem-solving and enjoy challenging myself by taking on difficult projects that I am able to learn from.
-          <br></br>
-          <br></br>
-          In addition to my studies and professional experience, I am also an avid rock climber and a cat person - I have two cats, Caramella and Woody.
-      </div>
-      <div className="image-background">
+          <p> I’m a fourth-year double degree student studying Computer Science and Business Administration. I’ve completed four internships focused on development and automation, most recently at <a href="https://ingenico.com/en" >Ingenico</a>, <a href="https://www.fidelity.ca/en/" >Fidelity</a>, and <a href="https://www.autotrader.ca/" >AutoTrader</a>. 
+          In my free time, I love building fun, practical projects that help me learn and solve real problems I run into.</p>
+          <p>
+            I’m also passionate about giving back. I am currently mentoring as a web developer with{" "}
+            <a
+              href="https://www.paper-airplanes.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Paper Airplanes
+            </a>{" "}
+            and volunteer at events with{" "}
+            <a
+              href="https://cs.uwaterloo.ca/wics"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Women in Computer Science (WiCS)
+            </a>.
+          </p>
+
+            <div className="tech-list-wrapper">
+            <p className="tech-list-title">Some of the tools and technologies I’ve been using lately include:</p>
+            <ul className="tech-list">
+              <li>Python</li>
+              <li>React.js</li>
+              <li>TypeScript</li>
+              <li>Next.js</li>
+              <li>JavaScript</li>
+              <li>Java</li>
+            </ul>
+            <p> Outside of tech, I’m an avid rock climber and puzzle enthusiast. You’ll often find me doing jigsaw puzzles or playing games like Wordle, Worldle, and Travle. I also love exploring new places and cultures through travel.</p>
+          </div>
+          </div>
+          <div className="image-background">
         <img className="about-me-image" src="/me.jpg" alt="About Me Image" />
       </div>
     </div>
   </div>
 </div>
-
-
+</section>
 )
 }
-/*
-<div className="about-me">
-<div className="about-me-content flex flex-col justify-between">
-<h2 className="about-me-title">About</h2>
-<div className="about-me-text">
-I am a second-year dual degree university student studying computer science and business adminstration.
-I enjoy problem-solving and challenging myself by taking on diffuclt projects that I am able to learn from. 
-<br></br>
-<br></br>
-This past summer I had the privilege to intern at an agency called Klick Health as a web developer and in the fall I joined MLH as a fellow. 
-Throughout the years I participated as a software developer in many hackathons and school clubs and built web apps that solve real problems. 
-Recently, I have been very interested in the world of machine learning and AI. 
-I plan on focusing and exploring this interest by building projects and doing research. 
-<br></br>
-<br></br>
-Outside of school and programming I really enjoy rock climbing. I am also a big a cat person and have two cats.
 
-</div>
-<div className="image-background">
-<img className="about-me-image" src="/me.png" alt="About Me Image"  />
-</div>
-</div>
-</div>
-)
-}
-*/
+

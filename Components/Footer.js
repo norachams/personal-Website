@@ -1,11 +1,7 @@
-
-
-import React from 'react';
-
 export default function Home() {
   return (
     <footer className="footer">
-      <p>Copyright &copy; {new Date().getFullYear()} Nora Chamseddin</p>
+      <p>Built and Designed by Nora Chamseddin &copy; {new Date().getFullYear()} </p>
     </footer>
   );
 }

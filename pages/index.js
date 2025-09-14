@@ -17,12 +17,10 @@ function App() {
       <Navbar/>
       <Banner/>
       <AboutMe/>
-      <Skills/>
       <Work/>
-      <Socials/>
       <Portfolio/>
-      <Contact/>
       <Footer/>
+      <Socials/>
     </div>
   );
 }
