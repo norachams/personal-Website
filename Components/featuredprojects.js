@@ -6,14 +6,14 @@ export default function FeaturedProjectsStrip() {
   const items = [
     {
       title: "JobJourney",
-      desc: "A job tracker dashboard that automatically tracks job applications. Built with Flask (Python), React + TypeScript, Firebase (auth/storage), Gmail API and Cohere API.",
+      desc: "A job tracker dashboard that automatically classifies and tracks your job applications from your email using LLMs. Built with Flask (Python), React + TypeScript, Firebase (auth/storage), Gmail API and Cohere API.",
       href: "https://job-journey-three.vercel.app/", 
       github: "https://github.com/norachams/JobJourney",
       img: "/journey.png",
     },
     {
       title: "Voz",
-      desc: "An AI voice chat Assistant web app, where you can talk to it like a real person and revisit old chats. Built with Typescript and Next.js.",
+      desc: "An AI voice chat Assistant web app, where you can talk to it like a real person and revisit old chats. Used Vapi API and built with Typescript and Next.js.",
       href: "https://voz-chat.vercel.app/",
       github: "https://github.com/norachams/Voz",
       img: "/voz.png",
