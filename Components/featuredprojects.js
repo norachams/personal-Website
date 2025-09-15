@@ -13,14 +13,14 @@ export default function FeaturedProjectsStrip() {
     },
     {
       title: "Voz",
-      desc: "An AI voice chat Assisstant web app, where you can talk to it like a real person and revisit old chats. Build with Typescript and Next.js.",
+      desc: "An AI voice chat Assistant web app, where you can talk to it like a real person and revisit old chats. Built with Typescript and Next.js.",
       href: "https://voz-chat.vercel.app/",
       github: "https://github.com/norachams/Voz",
       img: "/voz.png",
     },
     {
       title: "Test Farm - Ingenico",
-      desc: "An automated test farm that runs device tests in parallel, with a real-time dashboard for monitoring and control. Buuilt with Flask/Python, Appium, backend APIs, and a React/JavaScript frontend.",
+      desc: "An automated test farm that runs device tests in parallel, with a real-time dashboard for monitoring and control. Built with Flask/Python, Appium, backend APIs, and a React/JavaScript frontend.",
       img: "/testfarm.png",
     },
   ];
