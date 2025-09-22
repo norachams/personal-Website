@@ -6,7 +6,7 @@ import FeaturedProjectsStrip from './featuredprojects';
 const portfolio =[
   {
       title: 'Levanta',
-      stack: ['Python •', 'Github API •', 'Cohere API •', 'Twilio API'],
+      stack: ['Python •', 'Github API •', 'Cohere API •', 'Twilio API', 'Supabase'],
       linkgit: 'https://github.com/norachams/Levanta',
       description: 'A tough-love AI motivator that sends you personalized daily messages and a new LeetCode challenge to help you stay consistent with Leetcode.'
   },
