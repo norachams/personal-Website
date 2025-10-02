@@ -9,7 +9,7 @@ export default function Home() {
           <p> I’m a fourth-year double degree student studying Computer Science and Business Administration. I’ve completed four internships focused on development and automation, most recently at <a href="https://ingenico.com/en" >Ingenico</a>, <a href="https://www.fidelity.ca/en/" >Fidelity</a>, and <a href="https://www.autotrader.ca/" >AutoTrader</a>. 
           In my free time, I love building fun, practical projects that help me learn and solve real problems I run into.</p>
           <p>
-            I’m also passionate about giving back. I am currently mentoring as a web developer with{" "}
+            I’m also passionate about giving back. I am currently a mentor for the web development course for the Women in Tech program at{" "}
             <a
               href="https://www.paper-airplanes.org/"
               target="_blank"
@@ -17,7 +17,7 @@ export default function Home() {
             >
               Paper Airplanes
             </a>{" "}
-            and volunteer at events with{" "}
+            this is my second year with them and I also volunteer at events with{" "}
             <a
               href="https://cs.uwaterloo.ca/wics"
               target="_blank"
@@ -37,7 +37,7 @@ export default function Home() {
               <li>JavaScript</li>
               <li>Java</li>
             </ul>
-            <p> Outside of tech, I’m an avid rock climber and puzzle enthusiast. You’ll often find me doing jigsaw puzzles or playing games like Wordle, Worldle, and Travle. I also love exploring new places and cultures through travel.</p>
+            <p> Outside of tech, I’m an avid rock climber and puzzle enthusiast. You’ll often find me doing jigsaw puzzles or playing games like Wordle, Worldle, and Travle. I also love exploring new places and cultures through travel. I took this picture in Wales last year.</p>
           </div>
           </div>
           <div className="image-background">

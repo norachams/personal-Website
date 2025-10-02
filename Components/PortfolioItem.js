@@ -4,8 +4,6 @@ import { FaRegFolder } from "react-icons/fa";
 
 <FaRegFolder />
 
-
-
 function PortfolioItem({ title, stack = [], link,linkgit,description }) {
     return (
        <div className="dark:border-white rounded-md overflow-hidden shadow-xl transition duration-500 hover:-translate-y-3 ">

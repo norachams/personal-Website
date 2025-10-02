@@ -9,7 +9,7 @@ export default function Home() {
     {
       title: 'Ingenico',
       description:  <div className="description">
-      <p className="title">Software Engineer in Test @ Ingenico</p>
+      <p className="title">Software Engineer @ Ingenico</p>
       <p className="date">Sep 2025 - Dec 2025</p>
       <p className="desc">• Engineered a test farm using Flask, Python and Appium, reducing time by 40% through automated resource allocation.</p>
       <p className="desc">• Scaled the test farm infrastructure to support 24 devices simultaneously by integrating backend APIs for dynamic testing.</p>
