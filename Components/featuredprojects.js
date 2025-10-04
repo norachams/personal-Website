@@ -5,10 +5,10 @@ import { FiGithub, FiLink } from "react-icons/fi";
 export default function FeaturedProjectsStrip() {
   const items = [
     {
-      title: "JobJourney",
+      title: "Caramel",
       desc: "A job tracker dashboard that automatically classifies and tracks your job applications from your email using LLMs. Built with Flask (Python), React + TypeScript, Firebase (auth/storage), Gmail API and Cohere API.",
       href: "https://job-journey-three.vercel.app/", 
-      github: "https://github.com/norachams/JobJourney",
+      github: "https://github.com/norachams/Caramel",
       img: "/journey.png",
     },
     {

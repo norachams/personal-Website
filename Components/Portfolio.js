@@ -15,7 +15,7 @@ const portfolio =[
     stack: ['React •','TypeScript •', 'FastAPI (Python) •', 'Cardinal API'],
     linkgit: 'https://github.com/norachams/DocDiff',
     link: 'https://doc-diff-three.vercel.app/',
-    description: 'A student housing finder for the Waterloo area that aggregates rental listings from multiple sources into one convenient platform.'
+    description: 'A tool to compare two PDFs side-by-side. Highlights differences in text, images, and formatting using AI.'
   },
     {
     title: 'DormDirect',
