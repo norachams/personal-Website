@@ -1,4 +1,4 @@
-import { SiGithub, SiLinkedin, SiGmail} from "react-icons/si";
+import { SiGithub, SiLinkedin, SiGmail,SiMedium} from "react-icons/si";
 
 export default function Home() {
     return (
@@ -17,6 +17,10 @@ export default function Home() {
 
         <a href="mailto:nchamseddin@gmail.com">
         <SiGmail className="social-icon" size={25} />
+         </a>
+
+        <a href="https://medium.com/@nchamseddin">
+        <SiMedium className="social-icon" size={25} />
          </a>
         
         </li>
