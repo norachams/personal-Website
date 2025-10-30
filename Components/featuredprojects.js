@@ -7,9 +7,9 @@ export default function FeaturedProjectsStrip() {
     {
       title: "Caramel",
       desc: "A job tracker dashboard that automatically classifies and tracks your job applications from your email using LLMs. Built with Flask (Python), React + TypeScript, Firebase (auth/storage), Gmail API and Cohere API.",
-      href: "https://job-journey-three.vercel.app/", 
+      href: "https://www.oncaramel.com/", 
       github: "https://github.com/norachams/Caramel",
-      img: "/journey.png",
+      img: "/caramel.png",
     },
     {
       title: "Voz",
