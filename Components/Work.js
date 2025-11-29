@@ -9,7 +9,7 @@ export default function Home() {
     {
       title: 'Ingenico',
       description:  <div className="description">
-      <p className="title">Software Engineer @ Ingenico</p>
+      <p className="title">Software Engineer Intern @ Ingenico</p>
       <p className="date">Sep 2025 - Dec 2025</p>
       <p className="desc">• Engineered a test farm using Flask, Python and Appium, reducing time by 40% through automated resource allocation.</p>
       <p className="desc">• Scaled the test farm infrastructure to support 24 devices simultaneously by integrating backend APIs for dynamic testing.</p>
@@ -20,7 +20,7 @@ export default function Home() {
     {
       title: 'Fidelity',
       description:  <div className="description">
-      <p className="title">Automation Developer @ Fidelity Investments</p>
+      <p className="title">Automation Developer Intern @ Fidelity Investments</p>
       <p className="date">Jan 2024 - Apr 2024</p>
       <p className="desc">•  Developed file-processing workflow algorithms in Power Automate with JSON parsing, saving 1.5 hours per cycle</p>
       <p className="desc">• Engineered Power BI solution for daily updates delivering real-time insights, saving 1250 hours yearly via automated emails</p>

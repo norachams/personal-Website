@@ -1,5 +1,4 @@
 import { SiGithub, SiLinkedin, SiGmail,SiMedium} from "react-icons/si";
-import { SiMedium } from "react-icons/si";
 
 
 export default function Home() {
