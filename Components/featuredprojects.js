@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { FiArrowLeft, FiArrowRight, FiGithub, FiLink } from "react-icons/fi";
+import { FiArrowLeft, FiArrowRight, FiGithub, FiLink, FiVideo} from "react-icons/fi";
 
 const projects = [
   {
@@ -17,6 +17,14 @@ const projects = [
     img: "/voz.png",
   },
   {
+    title: "Medibook",
+    desc: "A full-stack medical appointment booking platform designed to simplify the way patients and physicians manage healthcare appointments.",
+    href: "https://medibook-gray.vercel.app/login",
+    github: "https://github.com/norachams/Medibook",
+    demo: "https://youtu.be/gscCyfdw8OM?si=4tOh3G08fi_Ki3Tt",
+    img: "/Medibook.png",
+  },
+   {
     title: "Test Farm - Ingenico",
     desc: "An automated test farm that runs device tests in parallel, with a real-time dashboard for monitoring and control. Built with Flask/Python, Appium, backend APIs, and a React/JavaScript frontend.",
     img: "/testfarm.png",
@@ -118,6 +126,16 @@ export default function FeaturedProjectsStrip() {
                     className="inline-flex items-center gap-2 rounded-full border border-[#606c38] px-3 py-2 text-sm font-semibold text-[#283618] transition-colors hover:border-[#283618] hover:text-[#9c5b1f]"
                   >
                     <FiGithub /> View code
+                  </a>
+                )}
+                {projects[active].demo && (
+                  <a
+                    href={projects[active].demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 rounded-full border border-[#606c38] px-3 py-2 text-sm font-semibold text-[#283618] transition-colors hover:border-[#283618] hover:text-[#9c5b1f]"
+                  >
+                    <FiVideo /> View demo
                   </a>
                 )}
               </div>
